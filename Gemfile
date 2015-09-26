@@ -30,5 +30,5 @@ end
 
 dev_gem 'halite', github: 'poise/halite'
 dev_gem 'poise', github: 'poise/poise'
-dev_gem 'poise-boiler'
-dev_gem 'poise-service'
+dev_gem 'poise-boiler', github: 'poise/poise-boiler'
+dev_gem 'poise-service', github: 'poise/poise-service'

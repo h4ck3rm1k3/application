@@ -6,3 +6,4 @@ Berksfile.lock
 test/docker/
 coverage/
 pkg/
+/Makefile
