@@ -7,3 +7,8 @@ test/docker/
 coverage/
 pkg/
 /Makefile
+/Makefile~
+/parsetrace.rb~
+/test_files/dna.json~
+/test_files/knife.rb~
+/test_files/solo.rb~
