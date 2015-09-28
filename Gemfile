@@ -24,20 +24,22 @@ def dev_gem(name, path: File.join('..', name), github: nil)
   if File.exist?(path)
     gem name, path: path
   elsif github
-    gem name, github: github
+
+    gem name, path: "../" + name
+    #gem name, github: github
   end
 end
 
-dev_gem 'halite', github: 'poise/halite'
+dev_gem 'halite', path: 'halite-2'
 dev_gem 'poise', github: 'poise/poise'
 dev_gem 'poise-boiler', github: 'poise/poise-boiler'
 dev_gem 'poise-service', github: 'poise/poise-service'
-gem "chefspec", :path => '../../../../chefspec'
-gem "chef", :path => '../../../../chef'
-gem "chef-config", :path => '../../../../chef/chef-config'
-gem "ohai", :path => '../../../../ohai'
-gem "rspec", :path => '../../../../rspec'
-gem "rspec-core", :path => '../../../../rspec-core'
-gem "rspec-mocks", :path => '../../../../rspec-mocks'
-gem "rspec-support", :path => '../../../../rspec-support'
-gem "rspec-expectations", :path => '../../../../rspec-expectations'
+gem "chefspec", :path => '../chefspec'
+gem "chef", :path => '../chef'
+gem "chef-config", :path => '../chef/chef-config'
+gem "ohai", :path => '../ohai'
+gem "rspec", :path => '../rspec'
+gem "rspec-core", :path => '../rspec-core'
+gem "rspec-mocks", :path => '../rspec-mocks'
+gem "rspec-support", :path => '../rspec-support'
+gem "rspec-expectations", :path => '../rspec-expectations'
