@@ -12,5 +12,8 @@ pkg/
 /test_files/dna.json~
 /test_files/knife.rb~
 /test_files/solo.rb~
+<<<<<<< HEAD
 /poise-application.gemspec
 \\#*
+=======
+>>>>>>> 19bbc35f9d28204a48a42048760f57992f1af0f1
