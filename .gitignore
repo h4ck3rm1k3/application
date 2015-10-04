@@ -13,3 +13,4 @@ pkg/
 /test_files/knife.rb~
 /test_files/solo.rb~
 /poise-application.gemspec
+\\#*
