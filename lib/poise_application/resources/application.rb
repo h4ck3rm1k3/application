@@ -247,7 +247,7 @@ module PoiseApplication
           new_resource.subresources.each do |r|
             begin
               r.run_action(action) if r.allowed_actions.include?(action)
-            rescue Chef::Exceptions::UnsupportedAction
+            #rescue Chef::Exceptions::UnsupportedAction
               # Don't care, just move on.
             end
           end
